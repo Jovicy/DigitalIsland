@@ -17,6 +17,11 @@ window.addEventListener("load", () => {
   }
 });
 
+// Navigation
+document.getElementById("nav-toggle").addEventListener("click", function () {
+  document.getElementById("nav-list").classList.toggle("active");
+});
+
 // Acoordion
 const faqCards = document.querySelectorAll(".faq-card");
 
