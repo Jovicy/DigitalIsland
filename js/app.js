@@ -38,3 +38,29 @@ faqCards.forEach((card) => {
     });
   });
 });
+
+// Slider
+document.addEventListener("DOMContentLoaded", () => {
+  const slider = document.querySelector(".testimonials-content");
+  const leftArrow = document.querySelector(".fa-arrow-left");
+  const rightArrow = document.querySelector(".fa-arrow-right");
+
+  let scrollPosition = 0;
+  const cardWidth =
+    slider.querySelector(".single-testimonial").offsetWidth + 24;
+  const maxScroll = slider.scrollWidth - slider.clientWidth;
+
+  rightArrow.addEventListener("click", () => {
+    if (scrollPosition < maxScroll) {
+      scrollPosition += cardWidth * 1.05;
+      slider.style.transform = `translateX(-${scrollPosition}px)`;
+    }
+  });
+
+  leftArrow.addEventListener("click", () => {
+    if (scrollPosition > 0) {
+      scrollPosition -= cardWidth * 1.05;
+      slider.style.transform = `translateX(-${scrollPosition}px)`;
+    }
+  });
+});

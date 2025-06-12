@@ -11,11 +11,21 @@
         font-size: 32px;
         letter-spacing: -1px;
         line-height: 130%;
-        padding: 0 1rem;
     }
 
     .nav-container {
         position: relative;
+        padding: 7px 14px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border-radius: 100px;
+    }
+
+    .nav-logo h1 {
+        font-size: 1.8rem;
+        text-align: left;
     }
 
     .nav-list {
@@ -220,32 +230,262 @@
     }
 
     .footer-container {
-    padding: 2rem 1rem;
-  }
+        padding: 2rem 1rem;
+    }
 
-  .footer-main {
-    flex-direction: column;
-    gap: 2rem;
-  }
+    .footer-main {
+        flex-direction: column;
+        gap: 2rem;
+    }
 
-  .footer-desc,
-  .footer-list-cont {
-    width: 100%;
-  }
+    .footer-desc,
+    .footer-list-cont {
+        width: 100%;
+    }
 
-  .footer-list-cont {
-    flex-direction: column;
-    gap: 2rem;
-  }
+    .footer-list-cont {
+        flex-direction: column;
+        gap: 2rem;
+    }
 
-  .footer-sub {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: flex-start;
-  }
+    .footer-sub {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
 
-  .footer-socials {
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
+    .footer-socials {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    /* Other Pages */
+    /* Contact Pages */
+    .contact-page_info {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form-container {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .contact-form,
+    .contact-form-desc {
+        width: 100%;
+    }
+
+    .form-input_cont {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .extra {
+        width: 100%;
+    }
+
+    .contact-desc-list li {
+        align-items: flex-start;
+    }
+
+    .contact-desc h6 {
+        font-size: 20px;
+    }
+
+    .contact-desc-info {
+        font-size: 14px;
+    }
+
+    .contact-page-form {
+        gap: 2rem;
+    }
+
+    /* Solution page */
+    .solutions-category {
+        margin-top: 40px;
+    }
+
+    .solutions-category h3 {
+        font-size: 1.5rem;
+        gap: 0.5rem;
+    }
+
+    .solutions-category h3 i {
+        display: none;
+    }
+
+    .solutions-grid {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .solution-page-card {
+        width: 100%;
+    }
+
+    .solution-page-card h4 {
+        font-size: 1rem;
+    }
+
+    .solution-page-card p {
+        font-size: 0.9rem;
+    }
+
+    /* Service Page */
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .services-card {
+        padding: 20px;
+        gap: 1.5rem;
+    }
+
+    .services-card-desc h6 {
+        font-size: 20px;
+        line-height: 140%;
+    }
+
+    .services-card-desc p {
+        font-size: 13px;
+        line-height: 160%;
+    }
+
+    .services-card-icon {
+        font-size: 4rem;
+        padding-top: 1rem;
+    }
+
+    .btn-services {
+        font-size: 0.95rem;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    /* About Page */
+    .company-main_container {
+        padding: 30px;
+    }
+
+    .company-main_container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .integration-stats-wrapper {
+        grid-template-columns: 1fr;
+        border-right: 1px solid #ffffff1a;
+    }
+
+    .integration-card {
+        border-right: none;
+        padding: 24px 16px;
+    }
+
+    .single-counter {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .counter {
+        font-size: 40px;
+    }
+
+    .company-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .company-desc,
+    .company-scroll {
+        width: 100%;
+        position: static;
+    }
+
+    .company-card-title h2 {
+        font-size: 28px;
+    }
+
+    .company-card-title p {
+        font-size: 14px;
+    }
+
+    .are-title {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .are-title_left,
+    .are-title_right {
+        width: 100%;
+        text-align: left;
+    }
+
+    .are-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .are-content_card {
+        padding: 16px;
+    }
+
+    .are-icon {
+        width: 80px;
+    }
+
+    .are-card-desc h4 {
+        font-size: 20px;
+    }
+
+    .partners-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .partners-card {
+        padding: 32px 20px;
+    }
+
+    .brand-logos {
+        width: 100px;
+    }
+
+    .testimonials-head {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .single-testimonial {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+
+    .testimonial-author {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .testimonial-author-image {
+        width: 48px;
+        height: 48px;
+    }
+
+    .testimonial-author-name {
+        font-size: 0.95rem;
+    }
+
+    .testimonial-author-designation {
+        font-size: 0.8rem;
+    }
+
+    .testimonial-content {
+        font-size: 0.9rem;
+    }
+
+    .testimonials-content {
+        gap: 1rem;
+    }
 }
