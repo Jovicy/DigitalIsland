@@ -158,22 +158,29 @@
     /* Case Section */
     .case-content {
         flex-direction: column;
-        gap: 2rem;
     }
 
     .case-content-main {
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .case-img,
     .case-briefing {
         width: 100%;
-        padding: 40px 20px;
+    }
+
+    .case-briefing {
+        gap: 0.5rem;
     }
 
     .case-briefing h1 {
-        font-size: 28px;
+        font-size: 24px;
         text-align: left;
+        padding-top: 1rem;
+    }
+
+    .case-list-content p {
+        padding-bottom: 1.5rem;
     }
 
     .case-second {
@@ -537,7 +544,7 @@
     }
 
     .faq-group-title h3 {
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
     }
 
@@ -576,6 +583,26 @@
 
     .not-body {
         padding: 0 20px;
+        text-align: center;
+    }
+
+    .faq-group-title img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .faq-group-title {
+        gap: 5px;
+    }
+
+    .time, .salary {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .faq-group-title h3 {
+        font-size: 20px;
         text-align: center;
     }
 }
