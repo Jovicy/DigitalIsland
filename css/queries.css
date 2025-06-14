@@ -488,4 +488,94 @@
     .testimonials-content {
         gap: 1rem;
     }
+
+    .career-hero_container {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .career-head_desc,
+    .career-head_img {
+        width: 100%;
+    }
+
+    .career-head_desc-title h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .career-head_main {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .career-briefing-desc h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .career-briefing-desc p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .career-impact_container {
+        grid-template-columns: 1fr;
+    }
+
+    .career-value_container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .career-value_card {
+        width: 100%;
+    }
+
+    .career-main_cont {
+        grid-template-columns: 1fr;
+    }
+
+    .faq-group-title h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .terms-content {
+        padding: 30px;
+    }
+
+    .terms-content h5 {
+        font-size: 24px;
+    }
+
+    .term-intro {
+        font-size: 16px;
+    }
+
+    .license-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .license-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .case-studies-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .case-studies-header {
+        margin-bottom: 32px;
+    }
+
+    .section-description {
+        font-size: 0.95rem;
+    }
+
+    .not-body {
+        padding: 0 20px;
+        text-align: center;
+    }
 }

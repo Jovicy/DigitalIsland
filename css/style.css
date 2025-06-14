@@ -653,6 +653,10 @@ header {
     gap: 1rem;
 }
 
+.faq-content-page {
+    align-items: flex-start;
+}
+
 .faq-card {
     background-color: var(--body-color);
     border: 1px solid var(--text-white);
@@ -663,6 +667,10 @@ header {
     align-items: center;
     gap: 1.5rem;
     width: 80%;
+}
+
+.faq-card-page {
+    width: 100%;
 }
 
 .faq-question {
@@ -1426,4 +1434,443 @@ textarea::placeholder {
     color: #ccc;
     font-size: 0.95rem;
     line-height: 1.5;
+}
+
+/* Career Page*/
+.career-hero_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career-head_desc {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.career-head_desc-title h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 135%;
+}
+
+.career-head_briefing {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.career-head_main {
+    display: flex;
+    gap: 20px;
+}
+
+.career-briefing-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.career-briefing-desc h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.career-briefing-desc p {
+    color: var(--text-white);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.career-head_img {
+    width: 50%;
+}
+
+.career-head_img img {
+    border-radius: 8px;
+}
+
+/* Career Impact */
+.career-impact_container {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+
+.career-stat-card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.impact-title h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+.stat-value {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    color: var(--text-white);
+    font-family: var(--head-family);
+}
+
+/* Career Value */
+.career-value_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.career-value_card {
+    width: 32%;
+    background-color: #0e0b16;
+    border-radius: 16px;
+}
+
+.value-img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.values-text-wrapper {
+    padding: 20px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.values-text-wrapper h5 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -.5px;
+}
+
+.values-text-wrapper p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #acabb2;
+}
+
+.career-main_cont {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    width: 100%;
+    display: grid;
+}
+
+.career-main_card {
+    background-color: #0e0b16;
+    border: 1px solid #ffffff1a;
+    border-radius: 16px;
+    flex-flow: column;
+    align-items: flex-start;
+    padding: 24px 24px 32px;
+    display: flex;
+}
+
+.career-category {
+    background-color: #06040b;
+    font-family: var(--head-family);
+    color: #ebebed;
+    border: 1px solid #f3f2f21a;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    text-decoration: none;
+}
+
+.career-text-wrapper {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-flow: column;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.career-title {
+    color: var(--text-white);
+    letter-spacing: -.3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.career-paragraph {
+    opacity: .6;
+    color: #acabb2;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    text-decoration: none;
+}
+
+.badges {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    margin-bottom: 32px;
+    display: flex;
+}
+
+.time,
+.salary {
+    background-color: #06040b;
+    font-family: var(--head-family);
+    color: var(--primary-color);
+    border: 1px solid #f3f2f21a;
+    border-radius: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    text-decoration: none;
+}
+
+.career-button {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    background-color: #ffffff1a;
+    border: 1px solid #ffffff1a;
+    border-radius: 100px;
+    align-items: center;
+    padding: 8px 20px;
+    text-decoration: none;
+    transition: background-color .5s;
+    display: flex;
+}
+
+/* Faq Page */
+.faq-group {
+    margin-bottom: 40px;
+}
+
+.faq-group-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.faq-group-title img {
+    width: 64px;
+    height: 64px;
+}
+
+.faq-group-title h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--text-white);
+}
+
+/* Terms */
+/* Terms Section */
+.terms {
+    background-color: var(--body-color);
+    color: var(--text-white);
+    line-height: 1.8;
+}
+
+.terms-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.terms-content p,
+.terms-container ul {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 1.2rem;
+}
+
+.terms-container ul li {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.terms-container a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.terms-container a:hover {
+    color: #8870ff;
+}
+
+.terms-content {
+    /* margin-top: 2.5rem; */
+    background-color: #0e0b16;
+    padding: 60px;
+    border-radius: 16px;
+}
+
+.terms-content h5 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--text-white);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.terms-content h5::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 40px;
+    height: 2px;
+    background-color: var(--primary-color);
+}
+
+.term-intro {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+/* Lisence Page */
+.license-section {
+    color: #fff;
+    padding: 80px 20px;
+    font-family: var(--body-family);
+}
+
+.license-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.license-title {
+    font-size: 2rem;
+    font-family: var(--head-family);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.license-description {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.license-group {
+    margin-bottom: 40px;
+}
+
+.license-subtitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.license-list {
+    list-style: none;
+    padding: 0;
+}
+
+.license-item {
+    background-color: #fff;
+    color: #000;
+    padding: 14px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+/* case page */
+.case-studies.section {
+    padding: 80px 20px;
+    background-color: var(--body-color);
+    color: var(--text-white);
+}
+
+.case-studies-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-description {
+    color: #ccc;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.case-studies-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.case-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid #ffffff15;
+    border-radius: 16px;
+    padding: 24px;
+    transition: transform 0.3s ease;
+}
+
+.case-card:hover {
+    transform: translateY(-6px);
+}
+
+.case-summary {
+    font-size: 0.95rem;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.case-link {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.case-link i {
+    margin-left: 8px;
+}
+
+.case-link:hover {
+    color: #a38aff;
+}
+
+.case-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 12px;
+}
+
+/* 404 Page */
+.not-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--text-white);
+    gap: 1rem;
 }
