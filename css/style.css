@@ -279,6 +279,7 @@ a {
 /* Header styles */
 header {
     background-image: url('../images/header.avif');
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -286,6 +287,7 @@ header {
 
 .page-header {
     background-image: url('../images/page-header.png');
+    background-attachment: fixed;
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1873,4 +1875,91 @@ textarea::placeholder {
     flex-direction: column;
     color: var(--text-white);
     gap: 1rem;
+}
+
+
+/* Insight Page */
+.insight-hero {
+    padding: 10rem 0rem 10rem 0rem;
+    display: flex;
+    align-items: center;
+}
+
+.insight-hero_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.insight-creator {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    color: var(--text-white);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.insight-creator div {
+    padding: 10px 24px;
+    background-color: transparent;
+    border: 1px solid #fff3;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.insight-hero_title h1 {
+    letter-spacing: -.5px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.insight-main_section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.insight-main_container p {
+    color: #ffffff80;
+    font-size: 16px;
+}
+
+.insight-main_section {
+    padding: 1rem 0rem 5rem 0rem;
+}
+
+.insight-main_container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.intro {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.insight-topic_title {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.insight-topic_title h2 {
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.insight-topic_title h3 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.insight-topic_title p {
+    line-height: 200%;
 }

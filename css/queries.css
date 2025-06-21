@@ -595,8 +595,42 @@
         gap: 5px;
     }
 
-    .time, .salary {
+    .time,
+    .salary {
         font-size: 12px;
+    }
+
+    .insight-creator {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .insight-creator div {
+        width: 100%;
+    }
+
+    .insight-hero_title h1 {
+        font-size: 30px;
+    }
+
+    .insight-main_section {
+        width: auto;
+    }
+
+    .insight-topic_title h2 {
+        font-size: 30px;
+    }
+
+    .insight-topic_title h3 {
+        font-size: 30px;
+    }
+
+    .insight-main_container p {
+        font-size: 14px;
+    }
+
+    .insight-main_container {
+        gap: 2rem;
     }
 }
 
