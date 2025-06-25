@@ -49,7 +49,11 @@ body {
 
 .title-span {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 22px;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(#af9dff, #6340fc);
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 img {
@@ -278,7 +282,9 @@ a {
 
 /* Header styles */
 header {
-    background-image: url('../images/header.avif');
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('../images/header.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -618,6 +624,7 @@ header {
 
 .insight-card_img img {
     border-radius: 16px 16px 0px 0px;
+    height: 250px;
 }
 
 .insight-card_desc {
@@ -1065,17 +1072,17 @@ textarea::placeholder {
 }
 
 .company-desc {
-    width: 32%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     position: sticky;
-    top: 120px;
+    top: -200px;
 }
 
 .company-desc h3 {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .company-desc p {
@@ -1083,10 +1090,11 @@ textarea::placeholder {
     font-weight: 400;
     line-height: 170%;
     color: #ebebed;
+    opacity: .7;
 }
 
 .company-scroll {
-    width: 58%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     gap: 5rem;

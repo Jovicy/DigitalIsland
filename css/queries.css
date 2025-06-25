@@ -632,6 +632,11 @@
     .insight-main_container {
         gap: 2rem;
     }
+
+    .insight-card_img img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width: 320px) {
